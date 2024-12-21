@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+--color-white: #ffffff;
+--color-black: #000000;
+--color-gray-100: #f7fafc;
+--color-gray-200: #edf2f7;
+}
+
+@media (prefers-color-scheme: dark) {
+:root {
+    --color-white: #000000;
+    --color-black: #ffffff;
+    --color-gray-100: #1a202c;
+    --color-gray-200: #2d3748;
+}
+}
+
+body {
+color: var(--color-white);
+background-color: var(--color-black);
+}
+
+@layer utilities {
+.text-balance {
+    text-wrap: balance;
+}
+
+.custom-hero-btn {
+    @apply bg-white rounded-full p-1 px-2 text-black;
+}
+
+.custom-hero-btn:hover {
+    @apply bg-transparent;
+}
+
+.card-hover:hover {
+    @apply shadow-lg;
+    scale: 1.05;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+}
+
+.hover-scale:hover {
+transform: scale(1.2);
+transition: transform 0.3s ease;
+}
