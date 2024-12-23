@@ -56,30 +56,30 @@ const showcaseData = [
         id: 1,
         image: localImages?.showcaseOne,
         imageAlt: 'Showcase Image 1',
-        title: 'Project One',
-        description: 'Lorem ipsum dolor sit amet',
-        category: 'Web Design',
-        link: '#',
+        title: 'AIDEOA',
+        description: 'A semi-government platform for CIL members to connect, collaborate, and drive organizational initiatives effectively.',
+        category: 'Web Development ',
+        link: 'https://www.aideoa.org.in/',
         linkText: 'Live Demo'
     },
     {
         id: 2,
         image: localImages?.showcaseTwo,
         imageAlt: 'Showcase Image 2',
-        title: 'Project Two',
-        description: 'Lorem ipsum dolor sit amet',
+        title: 'Hedge My Funds',
+        description: 'An investment banking, business consulting, and auditing platform with comprehensive portfolio management solutions.',
         category: 'Web Development',
-        link: '#',
+        link: 'https://www.hedgemyfunds.com/',
         linkText: 'Live Demo'
     },
     {
         id: 3,
         image: localImages?.showcaseThree,
         imageAlt: 'Showcase Image 3',
-        title: 'Project Three',
-        description: 'Lorem ipsum dolor sit amet',
-        category: 'Mobile App Development',
-        link: '#',
+        title: 'The Luxury Hotel Concierge',
+        description: 'An international hotel booking platform developed from scratch, offering seamless and luxurious travel experiences.',
+        category: 'Web Development',
+        link: 'https://theluxuryhotelconcierge.com/',
         linkText: 'Live Demo'
     }
 ];

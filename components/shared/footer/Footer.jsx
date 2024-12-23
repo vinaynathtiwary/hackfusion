@@ -11,9 +11,9 @@ const Footer = () => {
         <div className="w-full lg:w-1/3 mb-8 lg:mb-0 text-left"> {/* Both Contact Us and Quick Links left-aligned */}
           <h2 className="text-xl md:text-2xl font-semibold text-gray-800 mb-4">Contact Us</h2>
           <p className="text-gray-600 mb-4 leading-relaxed">Get in touch for inquiries or support.</p>
-          <p className="mb-2 text-gray-700">Email: <a href="mailto:team@hackfusion.in" className="text-blue-500 hover:underline hover:text-blue-700 transition duration-300">team@hackfusion.in</a></p>
-          <p className="text-gray-700">Phone: <a href="tel:+917296096397" className="text-blue-500 hover:underline hover:text-blue-700 transition duration-300">+91 72960 96397</a></p>
-          <p className="text-gray-700">Whatsapp: <a href="https://wa.me/+917296096397" className="text-green-500 hover:underline hover:text-green-700 transition duration-300">+91 72960 96397</a></p>
+          <p className="mb-2 text-gray-700">Email: <a href="mailto:team@hackfusion.in" className="text-blue-500 hover:underline hover:text-blue-700 transition duration-300">Mail</a></p>
+          <p className="text-gray-700">Phone: <a href="tel:+917296096397" className="text-blue-500 hover:underline hover:text-blue-700 transition duration-300">Call</a></p>
+          <p className="text-gray-700">Whatsapp: <a href="https://wa.me/+917296096397" className="text-green-500 hover:underline hover:text-green-700 transition duration-300">Whatsapp</a></p>
 
           <div className="mt-6">
             <h4 className="text-lg font-medium text-gray-800 mb-2">Follow Us</h4>
@@ -46,7 +46,7 @@ const Footer = () => {
           <h4 className="text-xl font-semibold text-gray-800 mb-4">Office Address</h4>
           <address className="text-gray-600 not-italic">
             <p>Hackfusion</p> {/* Added company name */}
-            <p>Katrasgarh, Dhanbad, Jharkhand 828113, India</p>
+            <p>Dhanbad, Jharkhand 828113, India.</p>
           </address>
         </div>
       </div>

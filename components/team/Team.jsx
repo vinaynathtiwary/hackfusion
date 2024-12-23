@@ -4,20 +4,30 @@ import { FiGithub, FiInstagram, FiMail, FiPhone } from "react-icons/fi";
 
 const teamData = [
     {
-        name: "Vinay Nath Tiwary",
-        position: "CEO",
-        intro: "John leads our company with over 1 years of industry experience.",
-        image: "", // Add appropriate image URL
-        imageAlt: "CEO John Doe"
-    },
-    {
         name: "Ujjwal Pandey",
         position: "CTO",
-        intro: "Jane drives our technical vision and oversees all product development.",
+        intro: "Ujjwal leads technical operations, overseeing projects from start to finish efficiently.",
         image: "", // Add appropriate image URL
-        imageAlt: "CTO Jane Smith"
+        imageAlt: "CTO Ujjwal Pandey"
+    },
+    {
+        name: "Vinay Nath Tiwary",
+        position: "CEO",
+        intro: "Vinay manages company operations, ensuring growth, excellence, and strategic decision-making.",
+        image: "", // Add appropriate image URL
+        imageAlt: "CEO Vinay Nath Tiwary"
+    },
+    {
+        name: "Lokesh Nath Tiwari",
+        position: "CFO",
+        intro: "Lokesh oversees financial operations, ensuring budget compliance and sustainable company growth.",
+        image: "", // Add appropriate image URL
+        imageAlt: "CFO Lokesh Nath Tiwari"
     }
 ];
+
+
+
 
 const Team = () => {
     return (
@@ -29,9 +39,9 @@ const Team = () => {
                     The talented individuals steering our company toward success.
                 </p>
             </div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-12">
+            <div className="flex flex-wrap justify-center gap-8 mt-12">
                 {teamData.map((data, index) => (
-                    <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 w-full md:w-72 mx-auto">
+                    <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300 w-72 mx-auto">
                         <div className="flex items-center justify-center">
                             <Image 
                                 src={data.image} 
