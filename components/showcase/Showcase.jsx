@@ -1,3 +1,4 @@
+"use client"
 import React from 'react';
 import { showcaseData } from '@/constant/dummyData';
 import { HiArrowLongRight } from "react-icons/hi2";

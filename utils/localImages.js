@@ -1,5 +1,5 @@
 export const localImages = {
-    logo: require("../public/logo/elephant.png"),
+    logo: require("../public/logo/logo.jpg"),
     sliderOne: require("../public/slider/slider1.svg"),
     sliderTwo: require("../public/slider/slider2.svg"),
     sliderThree: require("../public/slider/slider3.svg"),
@@ -9,8 +9,16 @@ export const localImages = {
     teamOne: require("../public/team/dummy img.webp"),
     teamTwo: require("../public/team/dummy img.webp"),
     teamThree: require("../public/team/dummy img.webp"),
-    teamFour: require("../public/team/team4.jpg"),
     contactUs: require("../public/contact/contact.svg"),
     visionOne: require("../public/vision/vision1.jpeg"),
     visionTwo: require("../public/vision/vision2.jpg"),
+    ctoImg: require("@/public/team/dummy img.webp"),
+    smeImg: require("@/public/team/dummy img.webp"),
+    cfoImg: require("@/public/team/cfoImg.jpg"),
+    ceoImg: require("@/public/team/ceoImg.jpg"),
+    clientone: require("@/public/client/rktiwary.jpeg"),
+    clienttwo: require("@/public/client/pranavDhingra.jpeg")
+
+
+
 };

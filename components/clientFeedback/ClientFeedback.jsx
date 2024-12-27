@@ -1,20 +1,22 @@
+"use client"
 import React from 'react';
 import { HiArrowLongRight } from "react-icons/hi2";
 import Image from 'next/image';
 import { FaQuoteLeft } from "react-icons/fa";
+import { localImages } from '@/utils/localImages';
 
 // Feedback data
 const testimonialsData = [
     {
         quote: "HackFusion has delivered excellent work. Collaborating with them was a great experience. Their dedication and results are truly commendable.",
-        avatar: "", // Replace with the actual image path
+        avatar: localImages.clientone, // Replace with the actual image path
         avatarAlt: "R.K. Tiwary",
         name: "R.K. Tiwary",
         position: "National General Secretary (AIDEOA)"
     },
     {
         quote: "Working with HackFusion was fantastic. They provided exceptional solutions and demonstrated professionalism. Truly a reliable and efficient team.",
-        avatar: "", // Replace with the actual image path
+        avatar: localImages.clienttwo, // Replace with the actual image path
         avatarAlt: "Pranav Dhingra",
         name: "Pranav Dhingra",
         position: "CEO (HedgeMyFunds)"

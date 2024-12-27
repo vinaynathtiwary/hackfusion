@@ -1,46 +1,48 @@
+"use client"
 import React from "react";
 import { HiArrowLongRight } from "react-icons/hi2";
+import { FaBusinessTime, FaSearch, FaCode, FaChartBar, FaPalette, FaTools } from "react-icons/fa";
 
-// Updated services data
+// Updated services data with React Icons
 const servicesData = [
   {
     id: 1,
-    icon: "📈",
-    title: "Business Consulting",
+    icon: <FaBusinessTime className="text-blue-500 text-5xl" />,
+    title: "Strategic Planning",
     description:
-      "Expert solutions to drive your business forward with comprehensive strategies and actionable insights.",
+      "Develop long-term strategies to help your business grow and achieve its goals efficiently.",
   },
   {
     id: 2,
-    icon: "🔍",
+    icon: <FaSearch className="text-blue-500 text-5xl" />,
     title: "SEO Optimization",
     description:
       "Boost your online presence and drive organic traffic with our cutting-edge SEO techniques.",
   },
   {
     id: 3,
-    icon: "💻",
+    icon: <FaCode className="text-blue-500 text-5xl" />,
     title: "Custom Development",
     description:
       "Get tailor-made software solutions crafted specifically to meet your unique business needs.",
   },
   {
     id: 4,
-    icon: "📊",
-    title: "Market Analysis",
+    icon: <FaChartBar className="text-blue-500 text-5xl" />,
+    title: "Competitor Analysis",
     description:
-      "Detailed insights into market trends to empower your decision-making process and ensure success.",
+      "Gain insights into your competitors and make data-driven decisions to stay ahead in the market.",
   },
   {
     id: 5,
-    icon: "🎨",
+    icon: <FaPalette className="text-blue-500 text-5xl" />,
     title: "UI/UX Design",
     description:
       "Create stunning, user-friendly designs that elevate user experiences and enhance engagement.",
   },
   {
     id: 6,
-    icon: "🛠️",
+    icon: <FaTools className="text-blue-500 text-5xl" />,
     title: "Website Audit",
     description:
       "Comprehensive website audits to identify issues and optimize performance for maximum efficiency.",
@@ -73,9 +75,9 @@ const Services = () => {
           >
             <div className="p-6 flex flex-col h-full">
               {/* Icon */}
-              <div className="text-5xl text-blue-500 mb-4">{item.icon}</div>
+              <div className="mb-4">{item.icon}</div>
               {/* Title */}
-              <h4 className="text-xl font-bold text-gray-800 mb-3">
+              <h4 className="text-xl font-bold text-gray-800 mb-3 hover:text-blue-500 transition-colors duration-200">
                 {item.title}
               </h4>
               {/* Description */}
@@ -84,10 +86,6 @@ const Services = () => {
                   ? `${item.description.substring(0, 150)}...`
                   : item.description}
               </p>
-              {/* Action */}
-              <button className="mt-6 text-blue-600 font-semibold text-sm hover:underline self-start">
-                Learn More
-              </button>
             </div>
           </div>
         ))}

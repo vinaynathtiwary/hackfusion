@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import { visionData } from "@/constant/dummyData";
 import { FaChartLine, FaRegLightbulb } from "react-icons/fa";
