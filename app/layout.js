@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "@/styles/globals.css";
 import Head from 'next/head';
+import { localImages } from "@/utils/localImages";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,9 +34,9 @@ export default function RootLayout({ children }) {
         <meta name="theme-color" content="#ffffff" />
         
         {/* Open Graph Tags for Social Sharing */}
-        <meta property="og:title" content="HackFusion | Top Website Development Company in India" />
+        <meta property="og:title" content="HackFusion || Top Website Development Company in India" />
         <meta property="og:description" content="HackFusion offers top-notch website development services, custom solutions for business growth, and digital transformation. Build high-performance web applications tailored to your needs." />
-        <meta property="og:image" content="https://hackfusion.in/path-to-image.jpg" />
+        <meta property="og:image" content= {localImages.logo} />
         <meta property="og:url" content="https://hackfusion.in" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en_US" />
@@ -44,8 +45,10 @@ export default function RootLayout({ children }) {
         {/* LinkedIn Meta Tags */}
         <meta name="linkedin:title" content="HackFusion | Custom Website Development in India" />
         <meta name="linkedin:description" content="HackFusion offers top-notch website development services tailored for business growth and digital transformation. Contact us for high-performance web applications and custom e-commerce solutions." />
-        <meta name="linkedin:image" content="https://hackfusion.in/path-to-image.jpg" />
+        <meta name="linkedin:image" content={localImages.logo} />
         <meta name="linkedin:site" content="HackFusion" />
+        <meta name="linkedin:url" content="https://www.linkedin.com/company/hackfusion/" />
+
 
         <title>HackFusion | Website Development Services in India</title>
       </Head>
