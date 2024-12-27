@@ -6,16 +6,6 @@ import { FiLinkedin, FiMail, FiPhone } from "react-icons/fi";
 
 const teamData = [
     {
-        name: "Ujjwal Pandey",
-        position: "CTO",
-        intro: "Ujjwal leads technical operations, overseeing projects from start to finish efficiently.",
-        image: localImages.ctoImg,
-        imageAlt: "CTO Ujjwal Pandey",
-        email: "ujjwal@example.com",
-        linkedin: "https://linkedin.com/in/ujjwal-pandey",
-        phone: "+1234567890"
-    },
-    {
         name: "Vinay Nath Tiwary",
         position: "CEO",
         intro: "Vinay manages company operations, ensuring growth, excellence, and strategic decision-making.",
@@ -25,6 +15,17 @@ const teamData = [
         linkedin: "https://linkedin.com/in/vinay-tiwary",
         phone: "+0987654321"
     },
+    {
+        name: "Ujjwal Pandey",
+        position: "CTO",
+        intro: "Ujjwal leads technical operations, overseeing projects from start to finish efficiently.",
+        image: localImages.ctoImg,
+        imageAlt: "CTO Ujjwal Pandey",
+        email: "ujjwal@example.com",
+        linkedin: "https://linkedin.com/in/ujjwal-pandey",
+        phone: "+1234567890"
+    },
+    
     {
         name: "Lokesh Nath Tiwari",
         position: "CFO",
