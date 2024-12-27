@@ -11,9 +11,9 @@ const teamData = [
         intro: "Vinay manages company operations, ensuring growth, excellence, and strategic decision-making.",
         image: localImages.ceoImg,
         imageAlt: "CEO Vinay Nath Tiwary",
-        email: "vinay@example.com",
-        linkedin: "https://linkedin.com/in/vinay-tiwary",
-        phone: "+0987654321"
+        email: "vinaynathtiwary@gmail.com",
+        linkedin: "https://www.linkedin.com/in/vinay-nath-tiwary-175624210/",
+        phone: "+91 78701 62890"
     },
     {
         name: "Ujjwal Pandey",
@@ -22,8 +22,8 @@ const teamData = [
         image: localImages.ctoImg,
         imageAlt: "CTO Ujjwal Pandey",
         email: "ujjwal@example.com",
-        linkedin: "https://linkedin.com/in/ujjwal-pandey",
-        phone: "+1234567890"
+        linkedin: "https://linkedin.com/in/",
+        phone: "+91 76439 81080"
     },
     
     {
@@ -32,9 +32,9 @@ const teamData = [
         intro: "Lokesh oversees financial operations, ensuring budget compliance and sustainable company growth.",
         image: localImages.cfoImg,
         imageAlt: "CFO Lokesh Nath Tiwari",
-        email: "lokesh@example.com",
-        linkedin: "https://linkedin.com/in/lokesh-tiwari",
-        phone: "+1122334455"
+        email: "lokeshnathtiwari123@example.com",
+        linkedin: "https://www.linkedin.com/in/lokesh-nath-tiwari-9694992b6/",
+        phone: "+91 91029 94346"
     },
     {
         name: "Amitesh Kumar",
@@ -42,9 +42,9 @@ const teamData = [
         intro: "Amitesh oversees operations, ensuring budget compliance and sustainable company growth.",
         image: localImages.smeImg,
         imageAlt: "SME Amitesh Kumar",
-        email: "amitesh@example.com",
-        linkedin: "https://linkedin.com/in/amitesh-kumar",
-        phone: "+5566778899"
+        email: "amiteshkr13@gmail.com",
+        linkedin: "https://linkedin.com/in/",
+        phone: "+91 92975 28392"
     }
 ];
 

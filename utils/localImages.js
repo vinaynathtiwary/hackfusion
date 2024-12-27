@@ -13,7 +13,7 @@ export const localImages = {
     visionOne: require("../public/vision/vision1.jpeg"),
     visionTwo: require("../public/vision/vision2.jpg"),
     ctoImg: require("@/public/team/dummy img.webp"),
-    smeImg: require("@/public/team/dummy img.webp"),
+    smeImg: require("@/public/team/smeImg.jpg"),
     cfoImg: require("@/public/team/cfoImg.jpg"),
     ceoImg: require("@/public/team/ceoImg.jpg"),
     clientone: require("@/public/client/rktiwary.jpeg"),
