@@ -33,8 +33,8 @@ const teamData = [
         image: localImages.cfoImg,
         imageAlt: "CFO Lokesh Nath Tiwari",
         email: "lokeshnathtiwari123@example.com",
-        linkedin: "https://www.linkedin.com/in/lokesh-nath-tiwari-9694992b6/",
-        phone: "+91 91029 94346"
+        linkedin: "https://www.linkedin.com/",
+        phone: "+91 78701 62890"
     },
     {
         name: "Amitesh Kumar",

@@ -12,7 +12,7 @@ export const localImages = {
     contactUs: require("../public/contact/contact.svg"),
     visionOne: require("../public/vision/vision1.jpeg"),
     visionTwo: require("../public/vision/vision2.jpg"),
-    ctoImg: require("@/public/team/dummy img.webp"),
+    ctoImg: require("@/public/team/ctoImg.jpg"),
     smeImg: require("@/public/team/smeImg.jpg"),
     cfoImg: require("@/public/team/cfoImg.jpg"),
     ceoImg: require("@/public/team/ceoImg.jpg"),
