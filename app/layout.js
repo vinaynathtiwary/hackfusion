@@ -70,6 +70,19 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
+
+        {/* Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y40E73HSER"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-Y40E73HSER');
+            `,
+          }}
+        />
       </Head>
       <body className={inter.className}>
         {/* Google Tag Manager (noscript) */}
@@ -82,6 +95,7 @@ export default function RootLayout({ children }) {
           ></iframe>
         </noscript>
         {/* End Google Tag Manager (noscript) */}
+
         {children}
       </body>
     </html>
